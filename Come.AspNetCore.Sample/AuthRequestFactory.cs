@@ -103,8 +103,8 @@ namespace Come.AspNetCore.Sample
                 case DefaultAuthSourceEnum.WECHAT_ENTERPRISE_SCAN:
                     return new WeChatEnterpriseScanAuthRequest(clientConfig, authStateCache);
 
-                case DefaultAuthSourceEnum.ALIPAY_MP:
-                    return new AlipayMpAuthRequest(clientConfig, authStateCache);
+                //case DefaultAuthSourceEnum.ALIPAY_MP:
+                //    return new AlipayMpAuthRequest(clientConfig, authStateCache);
 
                 case DefaultAuthSourceEnum.GITEE:
                     return new GiteeAuthRequest(clientConfig, authStateCache);
@@ -118,8 +118,8 @@ namespace Come.AspNetCore.Sample
                 case DefaultAuthSourceEnum.XIAOMI:
                     return new XiaoMiAuthRequest(clientConfig, authStateCache);
 
-                case DefaultAuthSourceEnum.DINGTALK_SCAN:
-                    return new DingTalkScanAuthRequest(clientConfig, authStateCache);
+                //case DefaultAuthSourceEnum.DINGTALK_SCAN:
+                //    return new DingTalkScanAuthRequest(clientConfig, authStateCache);
 
                 case DefaultAuthSourceEnum.OSCHINA:
                     return new OschinaAuthRequest(clientConfig, authStateCache);
